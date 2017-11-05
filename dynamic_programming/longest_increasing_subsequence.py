@@ -40,7 +40,7 @@ def lis_efficient(arr):
 
     for i in range(n):
         # If X > last element in S, then append X to the end of S.
-        # This essentialy means we have found a new largest LIS.
+        # This essentially means we have found a new largest LIS.
         if not s:
             s.append(arr[i])
         elif arr[i] > s[-1]:
