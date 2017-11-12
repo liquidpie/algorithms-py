@@ -1,0 +1,15 @@
+from decimal import Decimal as dec
+
+s = input().strip()
+n = len(s)
+sum = [0] * n
+
+sum[0] = int(s[0])
+res = sum[0]
+for i in range(1, n):
+    sum[i] = ((i + 1) * int(s[i])) + (10 * sum[i - 1])
+    res += sum[i]
+
+d = dec(str(res))
+print(d)
+print((d % dec(str(10e9 + 7))))
