@@ -4,7 +4,11 @@ Find maximum possible sum of elements such that there are no 2 consecutive eleme
 
 Solution:
 
-Suppose we know the max sum for all subarrays, how can it help us to solve the overall problem? Let’s use max_sum[i] denote the maximum sum for subarray arr[0…i]. If the last number arr[i] is included in the sum, max_sum[i] should equal to arr[i] + max_sum[i-2] (because arr[i-1] cannot be included). Similarly, if arr[i] isn’t included, then max_sum[i] should equal to arr[i-1].
+Suppose we know the max sum for all subarrays, how can it help us to solve the overall problem? 
+Let’s use max_sum[i] denote the maximum sum for subarray arr[0…i]. 
+If the last number arr[i] is included in the sum, max_sum[i] should equal to arr[i] + max_sum[i-2] 
+(because arr[i-1] cannot be included). 
+Similarly, if arr[i] isn’t included, then max_sum[i] should equal to arr[i-1].
 
 Therefore, we have the following formula:
 
