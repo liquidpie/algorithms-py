@@ -22,6 +22,7 @@ class Person:
         self.name = name
         self.manager = manager
 
+
 if __name__ == '__main__':
     employee_database = list()
     employee_database.append(Person("Betty", "Sam"))

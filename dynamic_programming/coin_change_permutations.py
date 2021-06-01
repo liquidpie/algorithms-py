@@ -65,6 +65,7 @@ def coin_change_recursive(coin_set, m, sum):
     # including S[m-1] (ii) excluding S[m-1]
     return coin_change_recursive(coin_set, m - 1, sum) + coin_change_recursive(coin_set, m, sum - coin_set[m - 1])
 
+
 if __name__ == '__main__':
     coin_list = [1, 2, 3]
     m = len(coin_list)
