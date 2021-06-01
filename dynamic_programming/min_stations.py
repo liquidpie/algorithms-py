@@ -11,6 +11,8 @@ Input:  arr[]  = {9:00,  9:40, 9:50,  11:00, 15:00, 18:00}
 Output: 3
 There are at-most three trains at a time (time between 11:00 to 11:20)
 
+Reference: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station
+
 '''
 
 
