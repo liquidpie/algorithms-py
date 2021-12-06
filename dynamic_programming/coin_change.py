@@ -14,8 +14,8 @@ def coin_change(coin_value_list, change, min_coins, coins_used):
         coin_count = cents
         new_coin = 1
 
-        for j in [c for c in coin_value_list if c <= cents] :
-            if min_coins[cents - j] + 1 < coin_count :
+        for j in [c for c in coin_value_list if c <= cents]:
+            if min_coins[cents - j] + 1 < coin_count:
                 coin_count = min_coins[cents - j] + 1
                 new_coin = j
 

@@ -16,6 +16,7 @@ def distinct_paths_bet_two_points(x1, y1, x2, y2):
 
     return matrix[x2 - x1][y2 - y1]
 
+
 if __name__ == '__main__':
     x1, y1 = (1, 2)
     x2, y2 = (7, 9)

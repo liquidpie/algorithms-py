@@ -43,6 +43,7 @@ def print_lcs(seq1, seq2, lcs):
 
     print(' '.join([str(x) for x in common_subseq[::-1]]))
 
+
 if __name__ == '__main__':
     seq1 = "AGGTAB"
     seq2 = "GXTXAYB"

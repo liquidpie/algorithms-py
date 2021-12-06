@@ -1,7 +1,7 @@
 def edit_distance(str1, str2):
     """
-        Find minimum number of editsinsertions, deletions, and substitutions 
-        of charactersneeded to transform the first string into the second
+        Find minimum number of edits insertions, deletions, and substitutions
+        of characters needed to transform the first string into the second
         
         Edit distance is also known as Lavenstein distance
         

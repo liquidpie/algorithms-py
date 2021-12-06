@@ -1,4 +1,4 @@
-'''
+"""
 Minimum Number of Platforms Required for a Railway/Bus Station
 
 Given arrival and departure times of all trains that reach a railway station, find the minimum number of platforms required for the railway station so that no train waits.
@@ -13,7 +13,7 @@ There are at-most three trains at a time (time between 11:00 to 11:20)
 
 Reference: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station
 
-'''
+"""
 
 
 def min_stations(arr, dep, n):

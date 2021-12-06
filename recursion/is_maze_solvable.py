@@ -24,6 +24,7 @@ def is_maze_solvable(maze, n):
 
     return solve_maze(maze, n, start_x, start_y)
 
+
 def solve_maze(maze, n, x, y):
 
     # if the current position is off grid, maze isn't solvable

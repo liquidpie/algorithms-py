@@ -1,4 +1,4 @@
-'''
+"""
 There is an integer array consisting positive numbers only. 
 Find maximum possible sum of elements such that there are no 2 consecutive elements present in the sum.
 
@@ -13,7 +13,7 @@ Similarly, if arr[i] isn’t included, then max_sum[i] should equal to arr[i-1].
 Therefore, we have the following formula:
 
     max_sum[i] = MAX(arr[i] + max_sum[i-2], max_sum[i-1])
-'''
+"""
 
 
 def max_sum(arr, n):
